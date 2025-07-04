@@ -6,40 +6,40 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-    enunciado: "Quando o professor avisa que haverá uma avaliação na próxima semana, o que você faz?",
-    alternativas: [
-        "Começo a revisar o conteúdo aos poucos, organizando meu tempo.",
-        "Deixo para estudar apenas na véspera da prova."
-    ]
-},
-{
-    enunciado: "Como você reage ao saber que a avaliação será em grupo?",
-    alternativas: [
-        "Fico tranquilo, pois gosto de colaborar com os colegas.",
-        "Fico preocupado, pois prefiro trabalhar sozinho."
-    ]
-},
-   {
-    enunciado: "Se a avaliação for surpresa, como você costuma se sentir?",
-    alternativas: [
-        "Confiante, porque tento manter o conteúdo em dia.",
-        "Nervoso, porque não costumo revisar com frequência"
-    ]
-},
-{
-    enunciado: "O que você costuma fazer se não entende bem o conteúdo antes da avaliação?",
-    alternativas: [
-        "Procuro ajuda com o professor ou colegas.",
-        "Tento decorar sem realmente entender."
-    ]
-},
-{
-    enunciado: "Quando recebe a data da avaliação, qual é sua primeira reação?",
-    alternativas: [
-        "Anoto no caderno ou agenda para me planejar.",
-        "Esqueço e lembro só quando o professor avisa de novo."
-    ]
-}
+        enunciado: "Se a IA pode ajudar em uma tarefa difícil, como você reage?",
+        alternativas: [
+            "Uso a IA como apoio para facilitar meu trabalho.",
+            "Prefiro fazer tudo sozinho, mesmo que demore mais."
+        ]
+    },
+    {
+        enunciado: "Como você se sente em relação à IA no ambiente de trabalho ou estudo?",
+        alternativas: [
+            "Acredito que pode aumentar minha produtividade.",
+            "Acho que pode ser uma ameaça ao meu desempenho."
+        ]
+    },
+    {
+        enunciado: "Quando ouve que a IA está sendo usada em diversas áreas, o que pensa?",
+        alternativas: [
+            "É uma oportunidade de inovação e avanço.",
+            "É um risco que pode substituir pessoas."
+        ]
+    },
+    {
+        enunciado: "Como você age diante de uma IA que responde perguntas ou gera textos?",
+        alternativas: [
+            "Testo e vejo como ela pode me ajudar.",
+            "Não confio e duvido da precisão das respostas."
+        ]
+    },
+    {
+        enunciado: "Como você enxerga o uso da IA na educação?",
+        alternativas: [
+            "Um recurso que pode melhorar o aprendizado.",
+            "Algo que pode prejudicar o desenvolvimento dos alunos."
+        ]
+    },
 ];
 
 let atual = 0;
