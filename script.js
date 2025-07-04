@@ -40,4 +40,14 @@ const perguntas = [
         "Esqueço e lembro só quando o professor avisa de novo."
     ]
 }
-]
+];
+
+let atual = 0;
+let pergunta atual;
+
+function mostraPergunta() {
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
+
+mostraPergunta();
