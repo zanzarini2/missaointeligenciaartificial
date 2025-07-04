@@ -43,7 +43,7 @@ const perguntas = [
 ];
 
 let atual = 0;
-let pergunta atual;
+let perguntaAtual;
 
 function mostraPergunta() {
     perguntaAtual = perguntas[atual];
